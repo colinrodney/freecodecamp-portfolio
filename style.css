@@ -18,7 +18,8 @@ a {
   --midtone: hsla(180, 11%, 52%, 1);
   --highlight: hsla(53, 14%, 65%, 1);
   --accent: hsla(189, 40%, 80%, 1);
-  --light-text-color: hsla(0, 0%, 94%, 1);
+  --light-text-color: hsla(53, 14%, 65%, 1);
+  --dark-text-color: hsla(0, 0%, 10%, 1);
   /* --accent: hsla(189, 19%, 41%, 1); */
 }
 
@@ -108,15 +109,17 @@ body {
   /* padding: 1.5rem; */
   /* background: var(--midtone); */
   background: var(--highlight);
+  color: var(--dark-text-color);
 }
 
 .project-tile:nth-of-type(odd) a {
   color: var(--shadow);
+  color: var(--dark-text-color);
 }
 
 /* STYLES: EVEN # TILES */
 .project-tile:nth-of-type(even) {
-  background: var(--accent);
+  /* background: var(--accent); */
   background: var(--midtone);
   color: var(--light-text-color);
 }
