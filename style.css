@@ -65,6 +65,10 @@ body {
   margin-top: 1rem;
 }
 
+#navbar a.navlink-spacing-custom:hover{
+  color: hsla(189, 40%, 80%, 1);
+}
+
 /* WELCOME SECTION */
 /* remove padding from container-fluid */
 .container-fluid {
