@@ -94,43 +94,27 @@ body {
   color: var(--shadow);
 }
 
+/* GLOBAL STYLES FOR PROJECT TILES */
 .project-tile {
   padding: 1.5rem;
 }
 
-/* GLOBAL STYLES FOR PROJECT-TIE <a> */
-.project-tile a {
+.project-tile p,
+a {
+  margin: 1.5rem 0;
   text-decoration: none;
   font-size: 1.5rem;
+  color: var(--dark-text-color);
 }
 
 /* STYLES: ODD # TILES */
 .project-tile:nth-of-type(odd) {
-  /* padding: 1.5rem; */
-  /* background: var(--midtone); */
   background: var(--highlight);
-  color: var(--dark-text-color);
-}
-
-.project-tile:nth-of-type(odd) a {
-  color: var(--shadow);
-  color: var(--dark-text-color);
 }
 
 /* STYLES: EVEN # TILES */
 .project-tile:nth-of-type(even) {
-  /* background: var(--accent); */
   background: var(--midtone);
-  color: var(--light-text-color);
-}
-
-.project-tile:nth-of-type(even) a {
-  color: var(--light-text-color);
-}
-
-.project-tile p {
-  /* top/bottom - left/right */
-  margin: 1.5rem 0;
 }
 
 /* CARD-IMAGE  */
