@@ -5,7 +5,19 @@
   padding: 0;
 }
 
-/* GLOBAL ELEMENG STYLES */
+/* GLOBAL VARIABLES */
+:root {
+  --shadow: hsla(171, 27%, 15%, 1);
+  --midtone: hsla(180, 11%, 52%, 1);
+  --highlight: hsla(53, 14%, 65%, 1);
+  --accent: hsla(189, 40%, 80%, 1);
+  --light-text-color: hsla(53, 14%, 65%, 1);
+  --dark-text-color: hsla(0, 0%, 10%, 1);
+  --body-font: "Montserrat", sans-serif;
+  --link-font: "Raleway", sans-serif;
+}
+
+/* GLOBAL ELEMENT STYLES */
 li {
   list-style-type: none;
 }
@@ -24,18 +36,6 @@ p {
   font-family: var(--link-font);
 }
 
-/* VARIABLES */
-:root {
-  --shadow: hsla(171, 27%, 15%, 1);
-  --midtone: hsla(180, 11%, 52%, 1);
-  --highlight: hsla(53, 14%, 65%, 1);
-  --accent: hsla(189, 40%, 80%, 1);
-  --light-text-color: hsla(53, 14%, 65%, 1);
-  --dark-text-color: hsla(0, 0%, 10%, 1);
-  --body-font: "Montserrat", sans-serif;
-  --link-font: "Raleway", sans-serif;
-}
-
 body {
   background: var(--shadow);
   font-size: 18px;
@@ -51,8 +51,13 @@ body {
   padding: 1rem;
 }
 
+.nav-font {
+  font-family: var(--link-font);
+}
+
 #navbar a {
   color: #fff;
+  /* font-family: var(--link-font); */
 }
 
 .navlink-spacing-custom {
@@ -124,12 +129,13 @@ body {
 
 /* STYLES: ODD # TILES */
 .project-tile:nth-of-type(odd) {
-  background: var(--highlight);
+  background: var(--light-text-color);
+  background: hsla(53deg, 8%, 85%, 1);
 }
 
 /* STYLES: EVEN # TILES */
 .project-tile:nth-of-type(even) {
-  background: var(--midtone);
+  background: var(--accent);
 }
 
 /* CARD-IMAGE  */
