@@ -1,0 +1,5 @@
+> Update header information w/ personal infomration removing the Lorem Ipsum
+
+> Figure out how to change the color of nav toggler
+
+> Address project-tile <a> color and hover state
