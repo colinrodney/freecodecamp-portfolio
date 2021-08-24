@@ -127,6 +127,7 @@ body {
   color: var(--dark-text-color);
 } */
 .project-tile ul {
+  list-style-type: none;
   margin: 1.5rem auto;
   font-size: 1.5rem;
   color: var(--dark-text-color);
