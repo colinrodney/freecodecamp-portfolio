@@ -113,18 +113,24 @@ body {
 
 .project-tile a {
   display: block;
-  /* width: 90%; */
-  /* margin: 0 auto; */
+  /* color: red; */
 }
 
-.project-tile a:hover {
-  color: darkred;
+.project-tile .project-img {
+  max-width: 50%;
+  margin: 0 auto;
 }
 
-.project-tile p {
+/* .project-tile p {
   margin: 1.5rem 0;
   font-size: 1.5rem;
   color: var(--dark-text-color);
+} */
+.project-tile ul {
+  margin: 1.5rem auto;
+  font-size: 1.5rem;
+  color: var(--dark-text-color);
+  padding: 0;
 }
 
 /* STYLES: ODD # TILES */
@@ -141,6 +147,7 @@ body {
 /* CARD-IMAGE  */
 img {
   display: block;
+  /* max-width: 50%; */
 }
 
 /* FOOTER (Inherits background color from body element) */
@@ -154,5 +161,9 @@ img {
 @media (min-width: 768px) {
   .header-margin {
     margin-top: 25%;
+  }
+
+  .project-tile ul {
+    margin: initial;
   }
 }
