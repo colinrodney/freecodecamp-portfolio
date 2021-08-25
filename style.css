@@ -37,8 +37,9 @@ p {
 }
 
 body {
-  background: var(--shadow);
+  /* background: var(--shadow); */
   font-size: 18px;
+  border: 2px dotted purple;
 }
 
 /* NAVBAR */
@@ -49,16 +50,17 @@ body {
   width: 100%;
   z-index: 20;
   padding: 1rem;
+  border: 2px dotted red;
 }
 
 .nav-font {
   font-family: var(--link-font);
 }
 
-#navbar a {
+/* #navbar a {
   color: #fff;
-  /* font-family: var(--link-font); */
-}
+  font-family: var(--link-font);
+} */
 
 .navlink-spacing-custom {
   margin-right: 1rem;
