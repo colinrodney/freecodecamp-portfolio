@@ -34,7 +34,7 @@ header {
 
 /* WELCOME SECTION */
 #welcome-section {
-  height: 100vh;
+  height: inherit;
 }
 
 /* #welcome-section img {
