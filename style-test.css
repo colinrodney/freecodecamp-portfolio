@@ -7,7 +7,12 @@ a {
   text-decoration: none;
 }
 body {
-  min-height: 100vh;
+  height: 100vh;
+}
+
+/* HEADER */
+header {
+  border: 2px dotted red;
 }
 
 /* NAVBAR */
@@ -15,19 +20,27 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 20;
+  /* z-index: 20; */
   padding: 1rem;
+}
+/* .navbar-toggler-border {
+  border-color: hsla(0, 100%, 100%, 1);
+} */
+
+#header-img {
+  display: block;
+  max-width: 100%;
 }
 
 /* WELCOME SECTION */
 #welcome-section {
-  min-height: 100vh;
+  height: 100vh;
 }
 
-#welcome-section img {
+/* #welcome-section img {
   display: block;
   width: 100%;
-}
+} */
 
 #welcome-section #about {
   display: flex;

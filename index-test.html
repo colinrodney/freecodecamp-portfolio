@@ -24,62 +24,82 @@
     <link rel="stylesheet" href="style-test.css" />
   </head>
   <body>
-    <!-- NAVIGATION -->
-    <nav
-      id="navbar"
-      class="nav-font mb-5 fixed navbar-light navbar navbar-expand-md"
-    >
+    <header id="header">
+      <nav
+        id="navbar"
+        class="nav-font navbar-light navbar navbar-expand-md"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#home">CR</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="test collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="text-center ms-auto navbar-nav">
+              <a class="navlink-spacing-custom" aria-current="page" href="#home"
+                >Home</a
+              >
+  
+              <a href="#projects" class="navlink-spacing-custom">Projects</a>
+              <a
+                href="https://github.com/colinRodney"
+                id="profile-link"
+                target="_blank"
+                class="navlink-spacing-custom"
+                >Github</a
+              >
+              <a href="#footer" class="navlink-spacing-custom">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- END NAV BAR -->
+      <!-- HERO IMG -->
       <div class="container-fluid">
-        <a class="navbar-brand" href="#home">CR</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="test collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="text-center ms-auto navbar-nav">
-            <a class="navlink-spacing-custom" aria-current="page" href="#home"
-              >Home</a
-            >
+        <div id="hero-img" class="row row-cols">
+          <img id="header-img" src="images/code.jpg" alt="code" />
+         
+          <!-- <div id="about" class="col col-md-6">
+            <pclass="header-font header-margin">Say Hello!</p>
+           <p>
+             My name is Colin Rodney and I am fueled by a passion for understanding the "how" and "why" of a problem. I am a self-taught web designer/ UI designer and am actively seeking an opportunity to to move your project from concept to reality.
+             </p>
+             <p>Driven by a thirst for knowledge and the determination to succed, I will continue to refine and sharpen my existing skills along with adding and developing new skills that will allow me to compete for a Senior-Level UI Designer role.</p>
 
-            <a href="#projects" class="navlink-spacing-custom">Projects</a>
-            <a
-              href="https://github.com/colinRodney"
-              id="profile-link"
-              target="_blank"
-              class="navlink-spacing-custom"
-              >Github</a
-            >
-            <a href="#footer" class="navlink-spacing-custom">Contact Me</a>
-          </div>
+          </div> -->
         </div>
       </div>
-    </nav>
+      <!-- END: HERO IMG -->
 
-    <main id="welcome-section">
-      <h1>Hello World</h1>
-       <div class="container-fluid">
-        <div class="g-0 row">
-          <div class="col-md-6">
-            <img id="header-img" src="images/code.jpg" alt="code" />
-          </div>
-          <div id="about" class="header-padding header-text col-md-6">
-            <h1 class="header-font header-margin">Say Hello!</h1>
-            <p>
-              My name is Colin Rodney and I am fueled by a passion for understanding the "how" and "why" of a problem. I am a self-taught web designer/ UI designer and am actively seeking an opportunity to to move your project from concept to reality.
-              </p>
-              <p>Driven by a thirst for knowledge and the determination to succed, I will continue to refine and sharpen my existing skills along with adding and developing new skills that will allow me to compete for a Senior-Level UI Designer role.</p>
+    
+     
+    </header>
 
+    <section id="welcome-section">
+      <div class="container-fluid">
+        <h1 class="header-font header-margin">Say Hello!</h1> 
+        <p>
+          My name is Colin Rodney and I am fueled by a passion for understanding the "how" and "why" of a problem. I am a self-taught web designer/ UI designer and am actively seeking an opportunity to to move your project from concept to reality.
+          </p>
+          <p>Driven by a thirst for knowledge and the determination to succed, I will continue to refine and sharpen my existing skills along with adding and developing new skills that will allow me to compete for a Senior-Level UI Designer role.</p>
+          <div class="box-1">
+            something here...
           </div>
-        </div>
+          <div class="box-2">
+            something here...
+          </div>
       </div>
-    </main>
+
+       
+    </section>
 
     <!-- Projects -->
     <section id="projects">
