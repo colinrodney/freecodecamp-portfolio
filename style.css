@@ -53,6 +53,7 @@ img {
 #projects {
   background: lightgray;
   overflow: hidden;
+  padding: 1rem;
   /* position: absolute; */
 }
 
