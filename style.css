@@ -35,10 +35,18 @@ img {
   width: 100%;
 }
 
+/* NAVBAR */
+#navbar {
+  position: fixed;
+  width: 100%;
+  top: 0%;
+}
+
 /* WELCOME SECTION */
 #welcome-section {
   background: lightslategray;
   height: 100vh;
+  margin-top: 10%;
 }
 
 /* PROJECTS SECTION */
@@ -56,7 +64,7 @@ img {
 } */
 
 /* MEDIA QUERY */
-@media (min-width: 768px) {
+@media (min-width: 576px) {
   /* .header-margin {
     margin-top: 25%;
   }
