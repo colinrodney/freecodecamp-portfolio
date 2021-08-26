@@ -73,4 +73,10 @@ img {
     margin: initial;
 
   */
+
+  .header-md-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
