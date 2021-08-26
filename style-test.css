@@ -34,6 +34,7 @@ header {
 
 /* WELCOME SECTION */
 #welcome-section {
+  /* inherits 100vh from body (parent element) */
   height: inherit;
 }
 
