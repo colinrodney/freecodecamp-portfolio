@@ -15,158 +15,54 @@
   --dark-text-color: hsla(0, 0%, 10%, 1);
   --body-font: "Montserrat", sans-serif;
   --link-font: "Raleway", sans-serif;
+  --body-font: 18px;
 }
 
-/* GLOBAL ELEMENT STYLES */
-li {
+/* GLOBAL STYLES */
+body {
+  font-size: var(--body-font);
+  /* height: 100vh; */
+}
+a {
+  text-decoration: none;
+}
+
+ul {
   list-style-type: none;
 }
 
-a {
-  font-family: var(--link-font);
-  text-decoration: none;
-  font-size: 1.5rem;
-}
-
-p {
-  font-family: var(--body-font);
-}
-
-.header-font {
-  font-family: var(--link-font);
-}
-
-body {
-  /* background: var(--shadow); */
-  font-size: 18px;
-  border: 2px dotted purple;
-}
-
-/* NAVBAR */
-
-#navbar {
-  position: fixed;
-  top: 0;
+img {
   width: 100%;
-  z-index: 20;
-  padding: 1rem;
-  border: 2px dotted red;
-}
-
-.nav-font {
-  font-family: var(--link-font);
-}
-
-/* #navbar a {
-  color: #fff;
-  font-family: var(--link-font);
-} */
-
-.navlink-spacing-custom {
-  margin-right: 1rem;
-  margin-top: 1rem;
 }
 
 /* WELCOME SECTION */
-/* remove padding from container-fluid */
-.container-fluid {
-  padding: 0;
-}
-
-/* padding for header-text container */
-.header-padding {
-  padding: 1.5rem;
-}
-
-/* push elements in header-text container down */
-.header-margin {
-  margin-top: 0;
-}
-
 #welcome-section {
+  background: lightslategray;
   height: 100vh;
 }
 
-#welcome-section #header-img {
-  width: 100%;
-  /* max-height: 100%; */
-}
-
-#welcome-section .header-text {
-  background: hsla(171, 27%, 15%, 1);
-  color: hsla(189, 40%, 80%, 1);
-}
-
 /* PROJECTS SECTION */
-.no-padding {
-  padding: 0;
-}
-
 #projects {
-  background: hsla(53deg, 8%, 85%, 1);
-  /* color: var(--highlight); */
-  color: var(--shadow);
-}
-
-/* GLOBAL STYLES FOR PROJECT TILES */
-.project-tile {
-  padding: 1.5rem;
-}
-
-.project-tile a {
-  display: block;
-  /* color: red; */
-}
-
-.project-tile .project-img {
-  max-width: 50%;
-  margin: 0 auto;
-}
-
-/* .project-tile p {
-  margin: 1.5rem 0;
-  font-size: 1.5rem;
-  color: var(--dark-text-color);
-} */
-.project-tile ul {
-  list-style-type: none;
-  margin: 1.5rem auto;
-  font-size: 1.5rem;
-  color: var(--dark-text-color);
-  padding: 0;
-}
-
-/* STYLES: ODD # TILES */
-.project-tile:nth-of-type(odd) {
-  background: var(--light-text-color);
-  background: hsla(53deg, 8%, 85%, 1);
-}
-
-/* STYLES: EVEN # TILES */
-.project-tile:nth-of-type(even) {
-  background: var(--accent);
-}
-
-/* CARD-IMAGE  */
-img {
-  display: block;
-  /* max-width: 50%; */
+  background: lightgray;
+  overflow: hidden;
+  /* position: absolute; */
 }
 
 /* FOOTER (Inherits background color from body element) */
-#footer {
+/* #footer {
   color: var(--accent);
   font-size: 1.2rem;
   font-family: var(--body-font);
-}
+} */
 
 /* MEDIA QUERY */
 @media (min-width: 768px) {
-  .header-margin {
+  /* .header-margin {
     margin-top: 25%;
   }
 
   .project-tile ul {
     margin: initial;
-  }
+
+  */
 }
