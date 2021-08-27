@@ -57,6 +57,10 @@ img {
   /* position: absolute; */
 }
 
+.project-tile {
+  margin: 0 0 2rem 0; /* top right bottom left */
+}
+
 /* FOOTER (Inherits background color from body element) */
 /* #footer {
   color: var(--accent);
