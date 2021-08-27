@@ -3,3 +3,12 @@
 > Figure out how to change the color of nav toggler
 
 > Address project-tile <a> color and hover state
+
+@ Project tiles:
+
+  - Remove left side padding from <ul>
+
+  - Add top margin (create space between project image and description - may need to add classname to style all elements at once via custom CSS instead of littering HTML w/ Bootstrap classes.)
+
+  - Address project tile colors
+    - Not sure what we are doing here yet...
