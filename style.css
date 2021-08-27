@@ -27,6 +27,8 @@ body {
 a {
   text-decoration: none;
   font-family: var(--link-font);
+  color: var(--shadow);
+  cursor: pointer;
 }
 
 ul {
@@ -55,13 +57,18 @@ img {
 #projects {
   background: lightgray;
   overflow: hidden;
-  padding: 1rem;
+  padding: 0.5rem;
   /* position: absolute; */
 }
 
 .project-tile {
   margin: 0 0 2rem 0; /* top right bottom left */
   /* font-family: var(--link-font); */
+}
+
+.project-description {
+  padding: 0;
+  margin: 1rem auto; /* top/bottom - left/right*/
 }
 
 /* FOOTER (Inherits background color from body element) */
