@@ -1,14 +1,12 @@
 > Update header information w/ personal infomration removing the Lorem Ipsum
 
-> Figure out how to change the color of nav toggler
+> Figure out how to change the color of nav toggler [MISSION CRITICAL!]
 
-> Address project-tile <a> color and hover state
 
 @ Project tiles:
-
-  - Remove left side padding from <ul>
-
-  - Add top margin (create space between project image and description - may need to add classname to style all elements at once via custom CSS instead of littering HTML w/ Bootstrap classes.)
-
   - Address project tile colors
     - Not sure what we are doing here yet...
+
+
+@Footer:
+  - Add background color to footer (not sure how we're approaching this yet)
