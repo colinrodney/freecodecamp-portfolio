@@ -22,9 +22,11 @@
 body {
   font-size: var(--body-font);
   /* height: 100vh; */
+  font-family: var(--body-font);
 }
 a {
   text-decoration: none;
+  font-family: var(--link-font);
 }
 
 ul {
@@ -55,6 +57,11 @@ img {
   overflow: hidden;
   padding: 1rem;
   /* position: absolute; */
+}
+
+.project-tile {
+  margin: 0 0 2rem 0; /* top right bottom left */
+  /* font-family: var(--link-font); */
 }
 
 /* FOOTER (Inherits background color from body element) */
