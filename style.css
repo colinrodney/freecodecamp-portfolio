@@ -63,12 +63,10 @@ img {
   background: lightgray;
   overflow: hidden;
   padding: 0.5rem;
-  /* position: absolute; */
 }
 
 .project-tile {
   margin: 0 0 4rem 0; /* top right bottom left */
-  /* font-family: var(--link-font); */
 }
 
 .project-description {
@@ -90,15 +88,6 @@ img {
 
 /* MEDIA QUERY */
 @media (min-width: 576px) {
-  /* .header-margin {
-    margin-top: 25%;
-  }
-
-  .project-tile ul {
-    margin: initial;
-
-  */
-
   .header-md-text {
     display: flex;
     flex-direction: column;
