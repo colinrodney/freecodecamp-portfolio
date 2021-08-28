@@ -2,6 +2,7 @@
 
 > Figure out how to change the color of nav toggler [MISSION CRITICAL!]
 
+> Add resume to project [MISSION CRITICAL!]
 
 @ Project tiles:
   - Address project tile colors
@@ -9,8 +10,9 @@
 
   - Increase font size of project links
 
+  - Increase font size: Project descriptions
 
-> Add resume to project
+
 
 @Footer:
   - Add background color to footer (not sure how we're approaching this yet)
