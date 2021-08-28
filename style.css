@@ -54,6 +54,7 @@ img {
 }
 
 .header-md-text {
+  background: var(--shadow);
   color: var(--accent);
 }
 
