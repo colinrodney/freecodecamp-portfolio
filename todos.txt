@@ -7,6 +7,11 @@
   - Address project tile colors
     - Not sure what we are doing here yet...
 
+  - Increase font size of project links
+
+
+> Add resume to project
 
 @Footer:
   - Add background color to footer (not sure how we're approaching this yet)
+
