@@ -21,8 +21,8 @@
 /* GLOBAL STYLES */
 body {
   font-size: var(--body-font);
-  /* height: 100vh; */
   font-family: var(--body-font);
+  background: var(--shadow);
 }
 a {
   text-decoration: none;
@@ -53,6 +53,10 @@ img {
   margin-top: 10%;
 }
 
+.header-md-text {
+  color: var(--accent);
+}
+
 /* PROJECTS SECTION */
 #projects {
   background: lightgray;
@@ -76,11 +80,11 @@ img {
 }
 
 /* FOOTER (Inherits background color from body element) */
-/* #footer {
+#footer {
   color: var(--accent);
   font-size: 1.2rem;
   font-family: var(--body-font);
-} */
+}
 
 /* MEDIA QUERY */
 @media (min-width: 576px) {
