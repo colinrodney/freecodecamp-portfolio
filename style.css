@@ -46,6 +46,11 @@ img {
   top: 0%;
 }
 
+.navlink-spacing-custom {
+  /* Adds spacing between navbar links */
+  margin: 0 1rem 0 0; /*top-right-bottom-left*/
+}
+
 /* WELCOME SECTION */
 #welcome-section {
   background: lightslategray;
@@ -77,6 +82,10 @@ img {
 
 .project-link {
   font-size: 1.5rem;
+}
+
+.project-link:hover {
+  color: hsla(280, 100%, 40%, 1);
 }
 
 /* FOOTER (Inherits background color from body element) */
