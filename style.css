@@ -66,13 +66,14 @@ img {
 }
 
 .project-tile {
-  margin: 0 0 2rem 0; /* top right bottom left */
+  margin: 0 0 4rem 0; /* top right bottom left */
   /* font-family: var(--link-font); */
 }
 
 .project-description {
   padding: 0;
   margin: 1rem auto; /* top/bottom - left/right*/
+  font-size: 1.5rem;
 }
 
 .project-link {
