@@ -15,12 +15,12 @@
   --dark-text-color: hsla(0, 0%, 10%, 1);
   --body-font: "Montserrat", sans-serif;
   --link-font: "Raleway", sans-serif;
-  --body-font: 18px;
+  --body-font-size: 18px;
 }
 
 /* GLOBAL STYLES */
 body {
-  font-size: var(--body-font);
+  font-size: var(--body-font-size);
   font-family: var(--body-font);
   background: var(--shadow);
 }
