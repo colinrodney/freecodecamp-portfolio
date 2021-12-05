@@ -46,6 +46,10 @@ img {
   top: 0%;
 }
 
+#navbar .navbar-brand {
+  text-transform: uppercase;
+}
+
 .navlink-spacing-custom {
   /* Adds spacing between navbar links */
   margin: 0 1rem 0 0; /*top-right-bottom-left*/
